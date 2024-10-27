@@ -1,12 +1,8 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "@firefly/api",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "nodemon -w src -x tsx src/server.ts",
+    "dev": "nodemon --watch src -x tsx src/server.ts",
     "start": "NODE_ENV=production tsx src/server.ts"
   },
   "dependencies": {

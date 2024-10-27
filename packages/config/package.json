@@ -1,6 +1,5 @@
 {
   "name": "@firefly/config",
   "version": "0.0.0",
-  "private": true,
-  "license": "ISC"
+  "private": true
 }

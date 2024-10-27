@@ -3,9 +3,6 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "scripts": {
     "prepare": "husky"
   },
