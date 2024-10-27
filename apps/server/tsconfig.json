@@ -1,0 +1,10 @@
+{
+  "extends": "@firefly/config/base.config.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noEmit": false,
+    "outDir": "dist",
+    "baseUrl": "."
+  },
+  "include": ["**/*.ts", "src", "tests"]
+}
