@@ -1,1 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/h"
+
 pnpx --no -- commitlint --edit ${1}
