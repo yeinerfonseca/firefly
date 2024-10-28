@@ -4,7 +4,10 @@
     "module": "CommonJS",
     "noEmit": false,
     "outDir": "dist",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["src/*"]
+    }
   },
   "include": ["**/*.ts", "src", "tests"]
 }
