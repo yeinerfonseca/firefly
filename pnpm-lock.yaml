@@ -42,7 +42,7 @@ importers:
         specifier: ^8.11.0
         version: 8.11.0(eslint@9.13.0(jiti@1.21.6))(typescript@5.6.3)
 
-  apps/server:
+  apps/api:
     dependencies:
       dotenv:
         specifier: ^16.4.5
@@ -50,6 +50,9 @@ importers:
       express:
         specifier: ^5.0.1
         version: 5.0.1
+      express-file-routing:
+        specifier: ^3.0.3
+        version: 3.0.3(express@5.0.1)
     devDependencies:
       '@firefly/config':
         specifier: workspace:*
@@ -817,6 +820,11 @@ packages:
   execa@8.0.1:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
     engines: {node: '>=16.17'}
+
+  express-file-routing@3.0.3:
+    resolution: {integrity: sha512-0936IhPc64moJHAG1Fz3SLCi0Upt6ahsbocrC6hdPUgmHY2018wjVrbln0HP67JoWFUdmmzypYiIHjF898s0hA==}
+    peerDependencies:
+      express: '>4.1.2'
 
   express@5.0.1:
     resolution: {integrity: sha512-ORF7g6qGnD+YtUG9yx4DFoqCShNMmUKiXuT5oWMHiOvt/4WFbHC6yCwQMTSBMno7AqntNCAzzcnnjowRkTL9eQ==}
@@ -2410,6 +2418,10 @@ snapshots:
       onetime: 6.0.0
       signal-exit: 4.1.0
       strip-final-newline: 3.0.0
+
+  express-file-routing@3.0.3(express@5.0.1):
+    dependencies:
+      express: 5.0.1
 
   express@5.0.1:
     dependencies:
