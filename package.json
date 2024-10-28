@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "pnpm --recursive --parallel run dev",
+    "dep:check": "pnpm dlx sherif@latest",
+    "dep:fix": "pnpm dlx sherif@latest --fix",
     "prepare": "husky"
   },
   "engines": {
