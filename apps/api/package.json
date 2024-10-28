@@ -2,8 +2,8 @@
   "name": "@firefly/api",
   "version": "0.0.0",
   "scripts": {
-    "dev": "nodemon --watch src -x tsx src/server.ts",
-    "start": "NODE_ENV=production tsx src/server.ts"
+    "dev": "nodemon --watch src -x tsx start.ts",
+    "start": "NODE_ENV=production tsx start.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
