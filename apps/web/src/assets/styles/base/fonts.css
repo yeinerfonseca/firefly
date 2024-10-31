@@ -1,0 +1,51 @@
+@layer base {
+  @font-face {
+    font-family: 'Massilia';
+    src:
+      url('fonts/Massilia/Massilia-Bold.otf') format('opentype'),
+      url('fonts/Massilia/Massilia-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Massilia';
+    src:
+      url('fonts/Massilia/Massilia-Ultra.otf') format('opentype'),
+      url('fonts/Massilia/Massilia-Ultra.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Mundial';
+    src:
+      url('fonts/Mundial/Mundial-Light.woff') format('woff'),
+      url('fonts/Mundial/Mundial-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Mundial';
+    src:
+      url('fonts/Mundial/Mundial-Regular.woff') format('woff'),
+      url('fonts/Mundial/Mundial-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Mundial';
+    src:
+      url('fonts/Mundial/Mundial-Demibold.woff') format('woff'),
+      url('fonts/Mundial/Mundial-Demibold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+}
