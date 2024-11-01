@@ -1,0 +1,6 @@
+.artwork {
+  background-image: linear-gradient(rgba(15, 15, 15, 0), rgb(21, 21, 21)),
+    linear-gradient(rgba(21, 21, 21, 0.8), rgba(21, 21, 21, 0.5)),
+    var(--artwork-url);
+  @apply absolute inset-0 h-[500px] bg-cover bg-no-repeat w-full;
+}

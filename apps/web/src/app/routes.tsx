@@ -1,5 +1,6 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom'
-import App from './App.tsx'
+import App from './app.tsx'
+import DetailsPage from './pages/details/page.tsx'
 
 export const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ export const router = createBrowserRouter([
   },
   {
     path: '/catalog/:id',
-    element: <h1>Details</h1>,
+    element: <DetailsPage />,
   },
   {
     path: '*',
